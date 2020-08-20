@@ -27,44 +27,5 @@ export default (env = {}) => {
         },
     }
 
-    // let config = {};
-    //
-    // if (env.production) {
-    //     htmlOptions = {
-    //         ...htmlOptions,
-    //         filename: '../index.html',
-    //     };
-    //
-    //     config = merge(config, {
-    //         output: {
-    //             // Required by the server's resolution strategy.
-    //             path: path.resolve(PATH_PROJECT_DIST, 'sandbox'),
-    //             publicPath: '/sandbox/',
-    //         },
-    //     });
-    // }
-    //
-    // // @ts-ignore
-    // htmlOptions.templateParameters.__SELF__ = htmlOptions.templateParameters;
-    //
-    // config = merge(config, {
-    //     entry: {
-    //         sandbox: paths.PROJECT_SOURCE,
-    //     },
-    //     resolve: {
-    //         alias: {
-    //             '@sandbox': paths.PROJECT_SOURCE,
-    //         },
-    //     },
-    //     plugins: [
-    //         new webpack.DefinePlugin(injectable({
-    //             ...globals,
-    //             VOD_ENABLED: true,
-    //         })),
-    //         new HtmlPlugin(htmlOptions),
-    //     ],
-    // });
-    //
-    // return merge(commonConfig, config);
     return config;
 };

@@ -1,4 +1,4 @@
 {
   "nodeVersion": "system",
-  "pluginsFile": "cypress/plugins/index.js"
+  "pluginsFile": "cypress/plugins/index.cjs"
 }
