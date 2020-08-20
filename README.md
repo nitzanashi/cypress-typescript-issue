@@ -24,6 +24,7 @@ Instead rename index.js to end in .cjs, change the requiring code to use import(
 // tsconfig.json
 {
     "compilerOptions": {
+        "module": "esnext",
         "allowJs": true
     }
 }
